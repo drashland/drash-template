@@ -1,5 +1,5 @@
-import { Drash } from "./deps.ts";
-import HomeResource from "./resources/home_resource.ts";
+import { Drash, Paladin } from "./deps.ts";
+import { HomeResource } from "./resources/home_resource.ts";
 
 export const server = new Drash.Server({
   hostname: "localhost",
@@ -8,4 +8,5 @@ export const server = new Drash.Server({
   resources: [
     HomeResource,
   ],
+  services: [new Paladin()]
 });
