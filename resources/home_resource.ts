@@ -4,7 +4,7 @@ export class HomeResource extends Drash.Resource {
   public paths = ["/", "/home"];
 
   public GET(request: Drash.Request, response: Drash.Response) {
-    console.log(`${request.method} ${request.url}`)
+    console.log(`${request.method} ${request.url}`);
     response.json({
       success: true,
       message: "GET",
@@ -12,7 +12,7 @@ export class HomeResource extends Drash.Resource {
   }
 
   public POST(request: Drash.Request, response: Drash.Response) {
-    console.log(`${request.method} ${request.url}`)
+    console.log(`${request.method} ${request.url}`);
     response.json({
       success: true,
       message: "POST",
@@ -20,7 +20,7 @@ export class HomeResource extends Drash.Resource {
   }
 
   public DELETE(request: Drash.Request, response: Drash.Response) {
-    console.log(`${request.method} ${request.url}`)
+    console.log(`${request.method} ${request.url}`);
     response.json({
       success: true,
       message: "DELETE",
@@ -28,7 +28,7 @@ export class HomeResource extends Drash.Resource {
   }
 
   public PUT(request: Drash.Request, response: Drash.Response) {
-    console.log(`${request.method} ${request.url}`)
+    console.log(`${request.method} ${request.url}`);
     response.json({
       success: true,
       message: "PUT",

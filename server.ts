@@ -8,5 +8,5 @@ export const server = new Drash.Server({
   resources: [
     HomeResource,
   ],
-  services: [new Paladin()]
+  services: [new Paladin()],
 });
