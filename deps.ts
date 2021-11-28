@@ -1,3 +1,3 @@
-export * as Drash from "https://deno.land/x/drash@v2.0.0/mod.ts";
+export * as Drash from "https://deno.land/x/drash@v2.2.0/mod.ts";
 
-export { Paladin } from "https://deno.land/x/drash@v2.0.0/src/services/paladin/paladin.ts";
+export { PaladinService } from "https://deno.land/x/drash@v2.2.0/src/services/paladin/paladin.ts";

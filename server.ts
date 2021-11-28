@@ -1,4 +1,4 @@
-import { Drash, Paladin } from "./deps.ts";
+import { Drash, PaladinService } from "./deps.ts";
 import { HomeResource } from "./resources/home_resource.ts";
 
 export const server = new Drash.Server({
@@ -8,5 +8,5 @@ export const server = new Drash.Server({
   resources: [
     HomeResource,
   ],
-  services: [new Paladin()],
+  services: [new PaladinService()],
 });
